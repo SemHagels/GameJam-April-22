@@ -19,6 +19,7 @@ public class WiskundeManager : MonoBehaviour
         Q3.SetActive(false);
         Q4.SetActive(false);
         Q5.SetActive(false);
+        DontDestroyOnLoad(this);
     }
 
     // Update is called once per frame
