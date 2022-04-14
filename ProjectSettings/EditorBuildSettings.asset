@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Microgames/Rennen.unity
+    guid: e944a13dee9aeff4fa7220860949ae5a
   m_configObjects: {}
