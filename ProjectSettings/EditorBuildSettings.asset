@@ -8,4 +8,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Microgames/Wiskunde.unity
+    guid: 3386a382e640d8b4eada20666b1576dc
+  - enabled: 1
+    path: Assets/Scenes/Microgames/Broodje.unity
+    guid: 9d3e196e1bf662044893aad1c7ba22c0
+  - enabled: 1
+    path: Assets/Scenes/Microgames/Oversteken.unity
+    guid: 7d7249607c32b144d86119c5762a7fc7
+  - enabled: 1
+    path: Assets/Scenes/Microgames/Prullenbak.unity
+    guid: a3d872f7ac3f9824bbf09f1283a3aa3a
+  - enabled: 1
+    path: Assets/Scenes/Microgames/Rennen.unity
+    guid: e944a13dee9aeff4fa7220860949ae5a
+  - enabled: 1
+    path: Assets/Scenes/Microgames/Wachtwoord.unity
+    guid: 710ba12e74d8f88439e2ab1722d52e74
   m_configObjects: {}

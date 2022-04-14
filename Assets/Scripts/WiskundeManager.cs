@@ -10,6 +10,8 @@ public class WiskundeManager : MonoBehaviour
     public GameObject Q3;
     public GameObject Q4;
     public GameObject Q5;
+    public GameObject Manager;
+    public int LevelGenerate;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,12 +22,7 @@ public class WiskundeManager : MonoBehaviour
         Q4.SetActive(false);
         Q5.SetActive(false);
         DontDestroyOnLoad(this);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        DontDestroyOnLoad(this.Manager);
     }
     public void CorrectAnswer()
     {
@@ -49,11 +46,12 @@ public class WiskundeManager : MonoBehaviour
     }
     public void LastCorrect()
     {
-        //load next (random) scene
+        LevelGenerate = Random.Range(1, 7);
+        SceneManager.LoadScene(LevelGenerate);
     }
     public void WrongAnswer()
     {
-        //loads the gameover scene
-        print("GameOver!");
+        SceneManager.LoadScene(0);
     }
+ 
 }

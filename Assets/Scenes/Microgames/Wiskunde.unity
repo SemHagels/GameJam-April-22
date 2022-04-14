@@ -3932,6 +3932,8 @@ MonoBehaviour:
   Q3: {fileID: 2117155719}
   Q4: {fileID: 1367929213}
   Q5: {fileID: 1428147321}
+  Manager: {fileID: 1815142624}
+  LevelGenerate: 0
 --- !u!114 &1815142627
 MonoBehaviour:
   m_ObjectHideFlags: 0
