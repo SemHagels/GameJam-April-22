@@ -8,6 +8,6 @@ public class dead : MonoBehaviour
     
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        print("je bent dood");
+        SceneManager.LoadScene(0);
     }  
 }
