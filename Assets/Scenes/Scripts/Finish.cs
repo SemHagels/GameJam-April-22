@@ -9,6 +9,7 @@ public class Finish : MonoBehaviour
     {
         Debug.Log("You have reached school");
         Destroy(other.gameObject);
+        //Hier heb je speel afgespeeld(dus volgende level laden)
     }
 
 }

@@ -18,7 +18,7 @@ public class Timer : MonoBehaviour
         }
         else 
         {
-            timeValue = 0;
+            timeValue = 0;//Hier ga je dood,
         }
         DisplayTime(timeValue);
     }

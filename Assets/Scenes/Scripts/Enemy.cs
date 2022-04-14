@@ -17,6 +17,6 @@ public class Enemy : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {     
-        Destroy(gameObject); 
+        Destroy(gameObject); //Hier ga je dood
     }
 }
